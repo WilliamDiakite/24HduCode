@@ -15,21 +15,30 @@ public class Replique extends JPanel {
 	private static final long serialVersionUID = 1L;
 	
 	int number;
-	String discours = "To be or not to be, that is the question.";
+	String discours = "";
 	
+	/**
+	 * Positions des lignes dans la TextBox
+	 */
 	final private int TEXT_X = 35;
 	final private int TEXT_Y1 = 145;
 	final private int TEXT_Y2 = 190;
+	
 	
 	public Replique(String rep){
 		discours = rep;
 		this.setPreferredSize(new Dimension (900,650));
 	}
+	
 
 	public void setReplique(String rep) {
 		discours = rep;
 	}
 	
+	/**
+	 * Méthodes qui fonctionne lorsque le texte qu'elle affiche (discours d'un personnage) s'étend sur deux lignes maximum
+	 * Encore une fois, Swing c'est la galère...
+	 */
 	public void paint (Graphics g){
 		//super.paintComponent(g);
 		

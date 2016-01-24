@@ -35,6 +35,15 @@ public class Personnage extends JPanel {
 	int body_y = 50;
 	int position = 0;
 	
+	
+	/**
+	 * Les parametres servent à avoir le nom du fichier d'ou les F113 et cie
+	 * @param position
+	 * @param sexe
+	 * @param humeur
+	 * @param cheveux
+	 * @param couleur
+	 */
 	public Personnage(int position, String sexe, int humeur, int cheveux, int couleur) {
 		
 		this.setBounds(0, 500, 460, 200);
@@ -54,9 +63,12 @@ public class Personnage extends JPanel {
 			e.printStackTrace();
 		}
 		
-		
 		this.setPreferredSize(new Dimension (body.getWidth(),body.getHeight()));
 	}	
+	
+	/**
+	 * Cette méthode si elle avait été implenté, aurait servi à position les différents personnages sur la scène
+	 */
 	public void printPerso(){
 		switch (position) {
 			case 0:
@@ -93,16 +105,22 @@ public class Personnage extends JPanel {
 //		System.out.println("prout");
 //	}
 	
+	/**
+	 * Affichage du personnage
+	 */
 	public void paint (Graphics g)
 	{
 		g.drawImage(body, body_x, body_y, body.getWidth()*5/6, body.getHeight()*5/6, null);
 //		g.setColor(Color.black);
 //		g.drawString("J'aime la bite", 50, 500);
 //		g.drawRect(100, 200, 100, 200);
-		System.out.println("prout");
 	}
 	
 
+	/**
+	 * Si les codes avaient été fusionné, cette fonction et les dux suivantes aurait permis de récupérer les données parsées
+	 * @param base
+	 */
 	public void setBase(String base) {
 		// TODO Auto-generated method stub
 		String[] identite = base.split(",");
@@ -131,6 +149,7 @@ public class Personnage extends JPanel {
 		}
 	}
 	
+
 	public void setReplique(String rep) {
 		replique.setReplique(rep);
 	}

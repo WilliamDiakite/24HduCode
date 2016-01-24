@@ -41,10 +41,17 @@ public class Scene extends JPanel {
 		}
 	}
 	
+	/**
+	 * Ne sert pas... enfin je crois.
+	 * @param e
+	 */
 	public void actionPerformed(ActionEvent e){
 		repaint();
 	}
 	
+	/**
+	 * Affiche l'arrière plan 
+	 */
 	public void paintComponent(Graphics g){
 		
 		g.drawImage(img, x, y, img.getWidth(), img.getHeight(), null);
