@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+<scene>
+    <didascalie>
+        Vérone. Une place publique.
+        Entrent Samson et Grégoire, armés d’épées et de boucliers.
+    </didascalie>
+    <personnage nom="SAMSON">
+        <replique>
+            Grégoire, sur ma parole, nous ne supporterons pas leurs brocards.
+        </replique>
+    </personnage>
+    <personnage nom="GRÉGOIRE">
+        <replique>
+            Non, nous ne sommes pas gens à porter le brocart.
+        </replique>
+    </personnage>
+     
+     <personnage nom="SAMSON">
+        <replique>
+           Je veux dire que, s’ils nous mettent en colère, nous allongeons le couteau.
+       </replique>
+   </personnage>
+   <personnage nom="GRÉGOIRE">
+        <replique>
+        Oui, mais prends garde qu’on ne t’allonge le cou tôt ou tard.
+        </replique>
+    </personnage>
+     <personnage nom="SAMSON">
+        <replique>
+            Je frappe vite quand on m’émeut.
+        </replique>
+    </personnage>
+     <personnage nom="GRÉGOIRE">
+        <replique>
+        Mais tu es lent à t’émouvoir.
+        </replique>
+    </personnage>
+     
+    <personnage nom="SAMSON">
+        <replique>
+           Un chien de la maison de Montague m’émeut.
+        </replique>
+    </personnage>
+   
+     <personnage nom="GRÉGOIRE">
+        <replique>
+         Qui est ému, remue ; qui est vaillant, tient ferme ; conséquemment, si tu es ému, tu lâches pied.
+        </replique>
+    </personnage>
+
+    <personnage nom="SAMSON">
+        <replique>
+            Quand un chien de cette maison-là m’émeut, je tiens ferme. Je suis décidé à prendre le haut du pavé sur tous les Montagues, hommes ou femmes.
+        </replique>
+    </personnage>
+     <personnage nom="GRÉGOIRE">
+        <replique>
+        Cela prouve que tu n’es qu’un faible drôle ; les faibles s’appuient toujours au mur.
+        </replique>
+    </personnage>
+     <personnage nom="SAMSON">
+        <replique>
+            C’est vrai ; et voilà pourquoi les femmes étant les vases les plus faibles, sont toujours adossées au mur ; aussi, quand j’aurai affaire aux Montagues, je repousserai les hommes du mur et j’y adosserai les femmes.
+        </replique>
+    </personnage> 
+   
+     <personnage nom="GRÉGOIRE">
+        <replique>
+       La querelle ne regarde que nos maîtres et nous, leurs hommes.
+        </replique>
+    </personnage> 
+ 
+     <personnage nom="SAMSON">
+        <replique>
+           N’importe ! je veux agir en tyran. Quand je me serai battu avec les hommes, je serai cruel avec les femmes. Il n’y aura plus de vierges !
+        </replique>
+    </personnage>
+
+   <personnage nom="GRÉGOIRE">
+        <replique>
+         Tu feras donc sauter toutes leurs têtes ?
+        </replique>
+    </personnage> 
+
+    <personnage nom="SAMSON">
+        <replique>
+           Ou tous leurs pucelages. Comprends la chose comme tu voudras.
+        </replique>
+    </personnage>
+
+     <personnage nom="GRÉGOIRE">
+        <replique>
+        Celles-là comprendront la chose, qui la sentiront.
+        </replique>
+    </personnage>
+
+     <personnage nom="SAMSON">
+        <replique>
+            Je la leur ferai sentir tant que je pourrai tenir ferme, et l’on sait que je suis un joli morceau de chair
+        </replique>
+    </personnage>
+    
+    <personnage nom="GRÉGOIRE">
+        <replique>
+        Mais tu es lent à t’émouvoir.
+        </replique>
+        <didascalie> 
+            Ils dégainent
+            Entrent Abraham et Balthazar
+        </didascalie>
+    </personnage> 
+
+     <personnage nom="SAMSON">
+        <replique>
+            Voici mon épée nue ; cherche-leur querelle ; je serai derrière toi.
+        </replique>
+    </personnage> 
+     
+    <personnage nom="GRÉGOIRE">
+        <replique>
+        Oui, tu te tiendras derrière pour mieux déguerpir
+        </replique>
+    </personnage>
+
+     <personnage nom="SAMSON">
+        <replique>
+           Ne crains rien de moi.
+        </replique>
+    </personnage> 
+ 
+    <personnage nom="GRÉGOIRE">
+        <replique>
+         De toi ? Non, morbleu.
+        </replique>
+    </personnage> 
+ 
+      <personnage nom="SAMSON">
+        <replique>
+           Mettons la loi de notre côté et laissons-les commencer
+        </replique>
+    </personnage>
+
+    <personnage nom="GRÉGOIRE">
+        <replique>
+        Je vais froncer le sourcil en passant près d’eux, et qu’ils le prennent comme ils le voudront.
+        </replique>
+    </personnage> 
+ 
+      <personnage nom="SAMSON">
+        <replique>
+           C’est-à-dire comme ils l’oseront. Je vais mordre mon pouce en les regardant, et ce sera une disgrâce pour eux, s’ils le supportent.
+        </replique>
+    </personnage>
+   
+</scene>
+</root>
